@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>AJAX Lista Bohaterów</title>
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    ​
+    <script src="./ajaxLista.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="ajaxLista.css" />
+  </head>
+  <body>
+      <form>Dodaj nową osobę:</br>
+          <label>Superhero name: </label> <input id="nameInput" type="text" ></br>
+          <label>Link to the picture: </label> <input id="pictureInput" type="text" ></br>
+          <label>First appearance: </label> <input id="appearanceInput" type="text" ></br>
+          <label>Characters: </label> <input id="caractersInput" type="text" ></br>
+          <label>Publisher: </label> <input id="publisherInput" type="text" ></br>
+          <label>Description: </label> <input id="descriptionInput" type="text" ></br>
+          <button id="addButton">Add</button>
+      </form>
+    <ul id="heroList"></ul>
+    <section>
+      <label>Id: <span id="heroId"></span></label>
+      <label>Superhero: <span id="superhero"></span></label>
+      <label>Url: <img id="heroUrl"/></label>
+      <label>First Appearance:<span id="FirstAppearance"></span></label>
+      <label>Characters: <span id="characters"></span></label>
+      <label>Publisher:<span id="publisher"></span></label>
+      <label>Description:<span id="description"></span></label>
+      
+    </section>
+  </body>
+</html>

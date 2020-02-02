@@ -1,0 +1,25 @@
+button {
+  text-align: center;
+  width: 80px;
+  box-sizing: border-box;
+  padding: 0.5px 0;
+  border: 2px solid orange;
+  text-decoration: none;
+  background-color: whitesmoke;
+  color: black;
+  font-size: 12px;
+  font-family: arial, sans-serif;
+  text-transform: uppercase;
+  margin: 10px 10px 0 10px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #333333;
+  color: white;
+  border: #666666;
+}s
+
+* {
+  background-color: beige;
+}
